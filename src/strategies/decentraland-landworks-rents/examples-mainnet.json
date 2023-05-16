@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Get VP of LAND and Estate owner's that have their assets locked in LandWorks",
+    "strategy": {
+      "name": "decentraland-landworks-rents",
+      "params": {
+        "subgraphs": {
+          "landworks": "https://api.thegraph.com/subgraphs/name/enterdao/landworks"
+        },
+        "addresses": {
+          "estate": "0x959e104E1a4dB6317fA58F8295F586e1A978c297",
+          "land": "0xF87E31492Faf9A91B02Ee0dEAAd50d51d56D5d4d",
+          "stakingContract": "0x36e59268239022702d88716f25fb462fa588ea4d"
+        },
+        "multipliers": {
+          "land": 2000
+        }
+      }
+    },
+    "network": "1",
+    "addresses": [
+      "0x31123Fe4F9480Face6a7796dD16960164ED8176B",
+      "0xa253D7cd38dC2D0B2E65AD42a7e4bEB3C60A83aD",
+      "0x49B893fc370A019e555038528BA9E1651F02252f",
+      "0xa8f98b7B2039256bA66a12FEad20E750ECF9670D"
+    ],
+    "snapshot": 17243922
+  }
+]

@@ -160,6 +160,7 @@ import * as coordinape from './coordinape';
 import * as decentralandEstateSize from './decentraland-estate-size';
 import * as decentralandWearableRariry from './decentraland-wearable-rarity';
 import * as decentralandRentalLessors from './decentraland-rental-lessors';
+import * as decentralandLandworksRents from './decentraland-landworks-rents';
 import * as iotexBalance from './iotex-balance';
 import * as iotexStakedBalance from './iotex-staked-balance';
 import * as xrc20BalanceOf from './xrc20-balance-of';
@@ -614,6 +615,7 @@ const strategies = {
   'decentraland-estate-size': decentralandEstateSize,
   'decentraland-wearable-rarity': decentralandWearableRariry,
   'decentraland-rental-lessors': decentralandRentalLessors,
+  'decentraland-landworks-rents': decentralandLandworksRents,
   brightid,
   'inverse-xinv': inverseXINV,
   modefi,
